@@ -66,7 +66,7 @@ function formPaint () {
 
 function readForm(){
   
-  for (option in optionArray){
+  for (let option in optionArray){
     var name = optionArray[option];
     var statement = "input" + name ;
     var value = document.getElementById(statement).value;
